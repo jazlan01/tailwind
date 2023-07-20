@@ -25,6 +25,10 @@ Tailwindcss provides multiple options to package your project for production. Yo
 
 I have included a simple mechanism to minify your css and package it for production. Just run `npm run build` in the root directory of this project. This will modify the `output.css` file and minify it. You can simply ship your static webpage with this file.
 
+### Formatting Code
+
+This repository comes packaged with `prettier`. You can run `npm run format` to format your code. You can also use the `prettier` extension in VSCode to format your code on save.
+
 ## Websites used as reference guides
 
 **Note:** All designs you see here are the property of their respective owners. I am not affiliated with any of these companies and I am not claiming ownership of any designs.
