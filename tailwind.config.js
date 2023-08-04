@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./*.html", "./src/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        
+      },
+    },
   },
   plugins: [
     require("tailwindcss"),
